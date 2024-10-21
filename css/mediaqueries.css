@@ -1,0 +1,107 @@
+/* HOME PAGE for mobile */
+
+@media only screen and (max-width: 800px) {
+
+    body {
+        max-width: 100vh;
+    }
+
+    .wrapper {
+        min-height: 100vh;
+    }
+
+    .logo-block-mobile {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo-block {
+        display: none;
+    }
+
+    .icon {
+        margin-top: 6.5px;
+    }    
+
+    nav {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        height: 15vh;
+    }
+
+    .navbar-toggler {
+        margin-top: 2rem;
+        position: relative;
+
+    }
+
+    .nav-item {
+        width: 150px;
+        background-color: #b0a8b9;
+        text-align: end;
+        padding-right: 15px;
+    }
+
+    .content-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .object-1 {
+        margin-top: 18rem;
+        width: 100vh;
+        height: 95%;
+        right: 0px;
+    }
+
+    .object-2 {
+        left: -2rem;
+        width: 130%;
+    }
+
+    .object-2-content h2, .hello-buttons, .credits-cont {
+        display: none;
+    }
+
+    .object-2-content-mobile {
+        margin: 2rem 0;
+    }
+
+    .hello-cont {
+        margin: 8rem 0;
+        right: 1rem;
+    }
+
+    
+}
+
+/* Homepage medium to large screens */
+
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
+
+    .object-2 {
+        left: 10rem;
+        width: 380px;
+    }
+    
+    .hello-cont {
+        right: 18rem;
+    }
+
+    .hello-text {
+        margin-top: 0rem;
+    }
+}
+
+
+
+/* Homepage rules EXCPEPT MOBILE */
+
+@media only screen and (min-width: 800px) {
+
+    .logo-block-mobile, .object-2-content-mobile, .bottom-cont {
+        display: none;
+    }
+}
+
