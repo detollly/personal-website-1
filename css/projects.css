@@ -1,0 +1,80 @@
+
+.projects-cont {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #e6dace;
+    color: #111111;
+}
+
+.projects-content-cont {
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+}
+
+.title-cont {
+    margin: 7rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#title-icon {
+    position: relative;
+    top: 9px;
+}
+
+.card {
+    padding-left: 3rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0;
+    border: 0;
+    box-shadow: -10px 10px 10px -1px rgba(0, 0, 0, 0.15);
+    gap: 1.5rem;
+}
+
+.text-section {
+    width: 65%;
+    padding: 3rem 0;
+}
+
+.project-name h4 {
+    color: #8a2be2;
+    font-weight: bold;
+}
+
+.role-title {
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.body-text-cont a{
+    text-decoration: none;
+}
+
+.link-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+
+.image-section {
+    width: 35%;
+}

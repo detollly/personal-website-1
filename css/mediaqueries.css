@@ -105,3 +105,21 @@
     }
 }
 
+/* Resume page for MOBILE */
+
+@media only screen and (max-width: 800px) {
+
+    .resume-content-cont {
+        width: 48vh;
+    }
+
+    .card {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .profskillset-cont {
+        flex-direction: column;
+        gap: 0;
+    }
+}

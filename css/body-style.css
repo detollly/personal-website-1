@@ -12,6 +12,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     min-height: 70vh;
+    margin-bottom: 15rem;
 }
 
 
@@ -59,7 +60,7 @@ body {
 }
 
 .object-2 span {
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 2px solid #8a2be2;
     margin: 10px 0;
     width: 20%;
 }
@@ -110,7 +111,7 @@ body {
 }
 
 .btn-primary {
-    background-color: blueviolet;
+    background-color: #8a2be2;
     border: 2px solid #111111
 }
 
