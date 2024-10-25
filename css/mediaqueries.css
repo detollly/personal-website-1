@@ -18,7 +18,7 @@
 
     .logo-block {
         display: none;
-    }
+    } 
 
     .icon {
         margin-top: 6.5px;
@@ -73,10 +73,71 @@
         right: 1rem;
     }
 
+/* RESUME page for MOBILE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+    .resume-content-cont {
+        width: 48vh;
+    }
+
+    .resume-card {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .profskillset-cont {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+
+/* PROJECTS page for MOBILE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+    
+    .projects-content-cont {
+        width: 60vh;
+    }
+
+    .project-card {
+        width: 35vh;
+        flex-direction: column;
+        height: 65vh;
+        gap: 0;
+    }
+
+    .text-section {
+        margin-top: 2rem;
+        height: 65%;
+        width: 100%;
+        padding-right: 12px;
+    }
+
+    .body-text-cont {
+        margin-bottom: 0.5rem;
+    }
+
+    .image-section {
+        height: 35%;
+        width: 35vh;
+    }
+
+    .image-section img {
+        width: 100%;
+    }
+
+
+
+    
+
+
+
+
+
+
     
 }
 
-/* Homepage medium to large screens */
+/* HOMEPAGE medium to large screens ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 
 @media only screen and (min-width: 800px) and (max-width: 1600px) {
 
@@ -96,30 +157,11 @@
 
 
 
-/* Homepage rules EXCPEPT MOBILE */
+/* HOMEPAGE rules EXCPEPT MOBILE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 @media only screen and (min-width: 800px) {
 
     .logo-block-mobile, .object-2-content-mobile, .bottom-cont {
         display: none;
-    }
-}
-
-/* Resume page for MOBILE */
-
-@media only screen and (max-width: 800px) {
-
-    .resume-content-cont {
-        width: 48vh;
-    }
-
-    .card {
-        flex-direction: column;
-        gap: 3rem;
-    }
-
-    .profskillset-cont {
-        flex-direction: column;
-        gap: 0;
     }
 }
